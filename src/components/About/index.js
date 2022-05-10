@@ -46,9 +46,9 @@ const About = () => {
             />
           </h1>
           <p>
-            <a href='https://diondirectory.netlify.app/'><p>Directory Web created with Bootstrap and Sass ( Click on me)</p></a>
-            <a href='https://dionfinsweet.netlify.app/'><p>Finsweet Web created with Vanilla Html and Css ( Click on me)</p></a>
-            And the Portfolio was created with ReactJS/Gsap/Sass/Loader.css/Animate.css. More projects on the way stay tuned :)
+            <a href='https://diondirectory.netlify.app/'><p>Directory Web created with Bootstrap and Sass ( <span className='clickMe'>Click on me</span> )</p></a>
+            <a href='https://dionfinsweet.netlify.app/'><p>Finsweet Web created with Vanilla Html and Css ( <span className='clickMe'>Click on me</span> )</p></a>
+            And the Portfolio was created with ReactJS/Sass/Loader.css/Animate.css , More projects on the way stay tuned :)
           </p>
         </div>
 
