@@ -12,13 +12,16 @@ const Home = () => {
 
   const nameArray = ['i', 'o', 'n']
   const jobArray = [
-    'w','e','b', ' ', 'd','e','v','e','l','o','p', 'e','r','.',
+    'w','e','b', ' ', 'd','e','v','e','l','o','p','e','r','.',
   ]
 
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)
+    setTimeout(()=>{
+      document.querySelector(".solid-logo").style.display = "block"
+    }, 2000)
   }, [])
 
   return (
@@ -62,7 +65,8 @@ const Home = () => {
       />
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="pacman"/>
+      
     </>
   )
 }
